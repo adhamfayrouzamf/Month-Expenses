@@ -1,0 +1,70 @@
+  Project13.addWalletPage.resources - Embedded, ContainedInManifestFile, 
+  Project13.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Project13.MyUserControl.resources - Embedded, ContainedInManifestFile, 
+  Project13.showExpensesPage.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Ahmed, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Bunifu_UI_v1.52, Version=1.3.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Project13.addWalletPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Bunifu.Framework.UI.BunifuThinButton2 backB : Public
+    Bunifu.Framework.UI.BunifuThinButton2 addWallB : Public
+    Bunifu.Framework.UI.BunifuTextbox wallIncTxt : Public
+    Bunifu.Framework.UI.BunifuTextbox wallSrcTxt : Public
+Class Project13.MyUserControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Bunifu.Framework.UI.BunifuThinButton2 showExpB : Public
+    Bunifu.Framework.UI.BunifuThinButton2 addWallB : Public
+    System.Windows.Forms.Label welcomeL : Public
+    System.Windows.Forms.ComboBox wallSel : Public
+    Bunifu.Framework.UI.BunifuThinButton2 addExpB : Public
+    Bunifu.Framework.UI.BunifuTextbox remainTxt : Public
+    Bunifu.Framework.UI.BunifuTextbox incomeTxt : Public
+    System.Windows.Forms.TextBox expAmoTxt : Public
+    System.Windows.Forms.TextBox expDateTxt : Public
+    System.Windows.Forms.TextBox expCatTxt : Public
+    Bunifu.Framework.UI.BunifuThinButton2 logoutB : Public
+    Bunifu.Framework.UI.BunifuThinButton2 updateRemB : Public
+    Bunifu.Framework.UI.BunifuThinButton2 updateIncB : Public
+Class Project13.showExpensesPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Bunifu.Framework.UI.BunifuThinButton2 backB : Public
+    System.Windows.Forms.DataGridView expTbl : Public
+    Bunifu.Framework.UI.BunifuThinButton2 resetB : Public
+    Bunifu.Framework.UI.BunifuThinButton2 filterB : Public
+    System.Windows.Forms.ComboBox wallSel : Public
+    System.Windows.Forms.TextBox expAmoTxt : Public
+    System.Windows.Forms.TextBox expDateTxt : Public
+    System.Windows.Forms.TextBox expCatTxt : Public
+Class Project13.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Project13.MyUserControl dashboard : Public
+    Project13.addWalletPage addWallPage : Public
+    Project13.showExpensesPage showExpPage : Public
+    user* acc : Public
